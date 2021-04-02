@@ -1148,7 +1148,7 @@ footer ul a:hover{
     width: 25%;
 }
 .search-bar-1{
-    width: 27%;
+    width: 30%;
 }
 .img-box{
     width: 25%;
@@ -1276,8 +1276,37 @@ footer ul a:hover{
 .box-country{
     width: 40%;
 }
+.box-inside-country{
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .box-inside-country p{
     margin: 0;
+}
+.box-inside-country p:hover{
+    color: #da5427;
+    font-weight: bold;
+    cursor: pointer;
+}
+.watch-more{
+    display: none;
+}
+.watch-more-block{
+    display: flex;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+.box-country i{
+    right: 5px;
+}
+.btn-more{
+    border-radius: 1rem;
+    padding: 0px 20px;
 }
 @media screen and (max-width: 1200px){
     .right-nav input::placeholder{
@@ -1318,7 +1347,7 @@ footer ul a:hover{
         width: 25%;
     }
     .show-room-list{
-        width: 70%;
+        width: 65%;
     }
 }
 @media screen and (max-width: 992px){
@@ -1327,6 +1356,22 @@ footer ul a:hover{
     }
     .form-select{
         display: none;
+    }
+    .next-input{
+        display: block;
+    }
+    .srm, .box-country{
+        width: 100% !important;
+    }
+    .button-middle .btn{
+        width: 100%;
+    }
+    .btn-third, .btn-second{
+        font-size: .8rem;
+        padding: 2px 10px;
+    }
+    .third-side{
+        width: 28%;
     }
 }
 @media screen and (max-width: 950px){

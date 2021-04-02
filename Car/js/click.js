@@ -1,6 +1,8 @@
 const click = () =>{
     const list = document.querySelectorAll(".click-phone");
+    // add more phone 
     const listPhone = [
+        "0123.456.789",
         "0123.456.789",
         "0123.456.789",
         "0123.456.789"
@@ -12,7 +14,14 @@ const click = () =>{
     }
 }
 click();
-
+const button = () =>{
+    const more = document.querySelector(".btn-more");
+    const content = document.querySelector(".watch-more");
+    more.addEventListener("click", () =>{
+        content.classList.add("watch-more-block");
+    })
+}
+button();
 // list
 const list = () =>{
     const North = [
@@ -83,10 +92,12 @@ const list = () =>{
         "Vĩnh Long",
         "Vũng Tàu"
     ]
+    const box1 = document.querySelector(".box-inside-country");
     const north = document.querySelector(".north");
     const middle = document.querySelector(".middle-1");
     const south = document.querySelector(".south");
     for(let i = 0; i < North.length; i++){
+        let items = North[i];
         const p = document.createElement("p");
         p.textContent = North[i];
         north.appendChild(p);
@@ -100,6 +111,17 @@ const list = () =>{
         const p = document.createElement("p");
         p.textContent = South[i];
         south.appendChild(p);
+    }
+
+    const box = document.querySelector(".box-country span");
+    box.addEventListener("click", () =>{
+        box1.classList.toggle("flex-list");
+    })
+    const allItems = document.querySelectorAll(".box-inside-country p");
+    for(let i = 0; i < allItems.length; i++){
+        allItems[i].addEventListener("click", () =>{
+            box.innerHTML = allItems[i];
+        })
     }
 }
 list();
