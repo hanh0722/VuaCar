@@ -1,0 +1,5 @@
+Code: VX
+Color: Vuaxe
+
+NPM registry: swipejs
+fix draw, wrong color
