@@ -82,6 +82,9 @@
   color: blue;
   background-color : rgb(125, 124, 124);
 }
+.swiper-scrollbar{
+  display: block;
+}
 .muaban_left_new_header{
   align-items: center;
 }
@@ -183,9 +186,10 @@ main{
   position: relative;
   overflow: hidden;
 }
-.swiper-container{
+.swiper-container6{
   padding: 10px 0px;
   border: 1px solid #ddd;
+  overflow: hidden;
 }
 .form-select{
   display: none;
@@ -302,9 +306,61 @@ main{
 .list-bot{
   margin-top: 5%;
 }
+.list-bot a{
+  color: #da5427;
+}
+.list-bot ul{
+  padding: 5% 0%;
+}
+.img-fluid{
+  padding: 20px 0px !important;
+}
+.cost-table th:nth-child(1){
+  width: 12%;
+}
+.cost-table{
+  overflow-x: scroll;
+  width: 100%;
+  margin: 5% 0%;
+}
+.block-price img{
+  width: 100%;
+  padding: 10px 0px;
+}
+tr, th, td{
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px 5px;
+}
+.bottom-para{
+  margin-bottom: 3%;
+}
+.list-bot ul li{
+  list-style:circle;
+  color: #da5427;
+  font-size: .9rem;
+}
+.list-bot ul li:hover{
+  color: #e23838;
+}
+.dimension{
+  width: 100%;
+  margin: 5% 0%; 
+}
+.dimension th, .cost-table th{
+  color: white;
+  background-color: #da5427;
+}
 @media screen and (max-width: 720px){
   .container-2{
     max-width: 1400px !important;
+  }
+  .cost-table th:nth-child(1){
+    width: auto;
+  }
+  .list-bot{
+    display: none;
   }
 }
 @media screen and (max-width: 500px){
@@ -316,6 +372,9 @@ main{
   }
   .muaban_new-item_right_price, .muaban_new-item_right_detail{
     font-size: .7rem !important;
+  }
+  .mobile-accordian{
+    display: none;
   }
 }
 @media screen and (max-width: 450px){
