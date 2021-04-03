@@ -25,6 +25,7 @@ button();
 // list
 const list = () =>{
     const North = [
+        "Miền Bắc",
         "Hà Nội",
         "Bắc Giang",
         "Bắc Kạn",
@@ -52,6 +53,7 @@ const list = () =>{
         "Yên Bái"
     ]
     const Middle = [
+        "Miền Trung",
         "Đà Nẵng",
         "Bình Định",
         "Bình Thuận",
@@ -73,6 +75,7 @@ const list = () =>{
         "Thừa Thiên Huế"
     ]
     const South = [
+        "Miền Nam",
         "TP.HCM",
         "Bình Dương",
         "Bạc Liêu",
@@ -97,31 +100,54 @@ const list = () =>{
     const middle = document.querySelector(".middle-1");
     const south = document.querySelector(".south");
     for(let i = 0; i < North.length; i++){
-        let items = North[i];
         const p = document.createElement("p");
+        if(i === 0){
+            p.style.fontWeight = "bold";
+        }
         p.textContent = North[i];
         north.appendChild(p);
     }
     for(let i = 0; i < Middle.length; i++){
         const p = document.createElement("p");
+        if(i === 0){
+            p.style.fontWeight = "bold";
+        }
         p.textContent = Middle[i];
         middle.appendChild(p);
     }
     for(let i = 0; i < South.length; i++){
         const p = document.createElement("p");
+        if(i === 0){
+            p.style.fontWeight = "bold";
+        }
         p.textContent = South[i];
         south.appendChild(p);
     }
 
     const box = document.querySelector(".box-country span");
-    box.addEventListener("click", () =>{
-        box1.classList.toggle("flex-list");
-    })
+    const arrow = document.querySelector(".box-country i");
     const allItems = document.querySelectorAll(".box-inside-country p");
-    for(let i = 0; i < allItems.length; i++){
-        allItems[i].addEventListener("click", () =>{
-            box.innerHTML = allItems[i];
-        })
-    }
+    box.addEventListener("click", () =>{
+        let check = box1.classList.toggle("flex-list");
+        if(check === true){
+            for(let i = 0; i < allItems.length; i++){
+                allItems[i].addEventListener("click", () =>{
+                    box.innerHTML = allItems[i].innerHTML;
+                    box1.classList.remove("flex-list");
+                })
+            }
+        }
+    })
+    arrow.addEventListener("click", () =>{
+        let check = box1.classList.toggle("flex-list");
+        if(check === true){
+            for(let i = 0; i < allItems.length; i++){
+                allItems[i].addEventListener("click", () =>{
+                    box.innerHTML = allItems[i].innerHTML;
+                    box1.classList.remove("flex-list");
+                })
+            }
+        }
+    })
 }
 list();
