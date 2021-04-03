@@ -55,9 +55,6 @@ i:hover{
     cursor: pointer;
 }
 .right-nav input{
-    padding: 3px;
-    width: 100%;
-    position: relative;
     background-color: rgba(20,20,20, 0.5);
     color: white;
 }
@@ -105,6 +102,7 @@ i:hover{
     padding: 2.5% 5% 2.5% 5%;
     position: relative;
     margin-bottom: 2%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
 }
 .infor-34{
     width: 230px !important;
@@ -781,7 +779,7 @@ i:hover{
     align-items: center;
     padding: 5% 0%;
 }
-.title-content-1, .experience, .box-salon, .special-news, .main-search{
+.title-content-1, .experience, .box-salon, .special-news, .main-search, .main-news{
     padding: 2% 8%;
 }
 .box-carou{
@@ -1420,7 +1418,7 @@ footer ul a:hover{
         padding: 5px;
     }
     .right-pick{
-        width: 75%;
+        width: 80%;
         font-size: .7rem;
     }
     .right-pick button{
@@ -1658,7 +1656,7 @@ footer ul a:hover{
         width: 100%;
     }
     .reasonable, .cost-car, .top-car, .best-seller, .box-salon, .special-news, .footer, .title-content-2, .title-content,
-    .main-search{
+    .main-search, .main-news{
         padding: 2% 2%;
     }
     .title-content-1, .top-car{

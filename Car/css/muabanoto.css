@@ -94,9 +94,6 @@ main{
 .left_top {
   margin: 10px 0;
 }
-.muaban_left_header{
-  margin: 20px 0;
-}
 .muaban_left_new_item{
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -373,7 +370,7 @@ tr, th, td{
   .muaban_new-item_right_price, .muaban_new-item_right_detail{
     font-size: .7rem !important;
   }
-  .mobile-accordian{
+  .cost-table{
     display: none;
   }
 }

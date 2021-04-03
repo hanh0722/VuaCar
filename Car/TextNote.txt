@@ -3,3 +3,10 @@ Color: Vuaxe
 
 NPM registry: swipejs
 fix draw, wrong color
+
+H.Anh: landing, danh bạ, tin tức(...)
+A Dũng: Kinh Nghiệm, đánh giá
+Sơn: Giá xe, báo giá
+A Thắng: Đánh Giá, bảng Giá
+Huy: Vay mua xe
+Done: Landing, Danh bạ, bảng giá, báo giá

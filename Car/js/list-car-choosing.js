@@ -52,5 +52,10 @@ function forYou(){
 </div
     `
 }
-const id1 = document.querySelector("#for-y");
-id1.innerHTML = forYou();
+const ForYouList = () =>{
+    const id1 = document.querySelectorAll(".for-y");
+    for(let i = 0; i < id1.length; i++){
+        id1[i].innerHTML = forYou();
+    }
+}
+ForYouList();
