@@ -20,6 +20,7 @@ function Header(){
         </div>
         <div class="right">
             <p><a href="">Đăng ký</a></p>
+            <span>|</span>
             <p><a href="">Đăng nhập</a></p>
         </div>
     </div>
