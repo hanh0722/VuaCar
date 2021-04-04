@@ -39,7 +39,6 @@ id.innerHTML = list1();
 
 function forYou(){
     return `<div class="only-for-you">
-    <p class="title-search">Dành riêng cho bạn</p>
     <div class="content-only">
         <div class="img-only">
             <img src="https://img1.oto.com.vn/crop/115x85/2019/08/14/20190814161944-8377_wm.jpg" alt="">
@@ -49,7 +48,16 @@ function forYou(){
             <p>10 tỉ 700tr</p>
         </div>
     </div>
-</div
+    <div class="content-only">
+        <div class="img-only">
+            <img src="https://img1.oto.com.vn/crop/115x85/2019/08/14/20190814161944-8377_wm.jpg" alt="">
+        </div>
+        <div class="text-only">
+            <p><a href="">Mercedes G63 AMG 2021 Hà Nội. Giá tốt, giao xe ngay toàn quốc</a></p>
+            <p>10 tỉ 700tr</p>
+        </div>
+    </div>
+</div>
     `
 }
 const ForYouList = () =>{
