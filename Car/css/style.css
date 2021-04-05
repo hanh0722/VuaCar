@@ -1346,6 +1346,10 @@ footer ul a:hover{
 .text-only p:last-child{
     font-size: .8rem;
 }
+.header-class a{
+    font-weight: bold;
+    color: #da5427;
+}
 @media screen and (max-width: 1200px){
     .right-nav input::placeholder{
         font-size: .8rem;

@@ -138,7 +138,12 @@ const draw = () =>{
 }
 draw();
 // create option 
-
+// const OptionCar = (list) =>{
+//     for(let i = 0; i < list.length; i++){
+//         const option = document.createElement("option");
+//         option.textContent = list[i];
+//     }
+// }
 const opt = () =>{
     const listCar = document.querySelector("#country");
     const array = [
@@ -235,7 +240,47 @@ const opt = () =>{
         "Renault",
         "Riich",
         "Rolls-Royce",
-    ]
+    ];
+    // const Toyota = [
+    //     "4 Runner",
+    //     "Alphard",
+    //     "Avalon",
+    //     "Avanza",
+    //     "Aygo",
+    //     "Camry",
+    //     "Carina",
+    //     "Celica",
+    //     "Corolla",
+    //     "Corolla Altis",
+    //     "Corolla Cross",
+    //     "Corolla Verso",
+    //     "Corona",
+    //     "Cressida",
+    //     "Crown",
+    //     "Fortuner",
+    //     "Hiace",
+    //     "Highlander",
+    //     "Hilux",
+    //     "Innova",
+    //     "Land Cruiser",
+    //     "Prado",
+    //     "Previa",
+    //     "Puplica",
+    //     "RAV4",
+    //     "Rush",
+    //     "Sienna",
+    //     "Solara",
+    //     "Supra",
+    //     "Tundra",
+    //     "Van",
+    //     "Venza",
+    //     "Vios",
+    //     "Vista",
+    //     "Wigo",
+    //     "Wish",
+    //     "Yaris",
+    //     "Zace"
+    // ];
     for(let i = 0; i < array.length; i++){
         const option = document.createElement("option");
         option.textContent = array[i];
