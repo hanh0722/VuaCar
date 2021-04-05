@@ -206,7 +206,7 @@ function Header(){
             <a href="">...</a>
             <div class="information information-last">
                 <div class="first-list first-list1">
-                    <p><a href="">Tin tức</a></p>
+                    <p class="header-class"><a href="">Tin tức</a></p>
                     <p><a href="">Thị trường ô tô</a></p>
                     <p><a href="">An toàn giao thông</a></p>
                     <p><a href="">Sự kiện</a></p>
@@ -217,7 +217,7 @@ function Header(){
                     <p><a href="">Khám phá</a></p>
                 </div>
                 <div class="second-list second-list1">
-                    <p><a href="">Thông tin xe</a></p>
+                    <p class="header-class"><a href="">Thông tin xe</a></p>
                     <p><a href="">So sánh xe</a></p>
                     <p><a href="">Xe mới</a></p>
                     <p><a href="">Thông số kỹ thuật</a></p>
