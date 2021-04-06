@@ -22,21 +22,57 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- <div class="pop-up-menu">
+    <div class="pop-up-menu">
         <div class="choose">
-            <p>Đăng nhập</p>
-            <p>Đăng ký</p>
+            <p class="sign-in-1">Đăng nhập</p>
+            <p class="sign-up-1">Đăng ký</p>
             <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <div class="container-sign">
             <div class="sign-in">
-                <input type="text" name="email/tel" id="input1" placeholder="Email hoặc Số điện thoại đăng nhập *"><br>
-                <input type="password" name="password" placeholder="Mật khẩu *">
+                <input type="text" name="email/tel" id="input1" placeholder="" required><br>
+                <input type="password" name="password" placeholder="" required>
+                <div class="button-center">
+                    <button class="btn btn-warning btn-class">Đăng nhập</button>
+                </div>
+                <p class="text-center text-sign">Hoặc đăng nhập bằng</p>
+                <div class="fb-gg">
+                    <button class="btn btn-primary">Facebook</button>
+                    <button class="btn btn-danger">Google</button>
+                </div>
+                <div class="forget">
+                    <p><a href="">Quên mật khẩu</a></p>
+                    <p><a href="">Cần trợ giúp?</a></p>
+                </div>
             </div>
-            <div class="sign-up"></div>
+            <div class="sign-up">
+                <form method="GET">
+                    <input type="text" placeholder="Email đăng nhập *" required>
+                    <input type="text" placeholder="Họ và tên" required>
+                    <input type="password" placeholder="Mật khẩu *" required>
+                    <input type="text" placeholder="Nhập lại mật khẩu *" required>
+                    <input type="tel" placeholder="Số điện thoại *" required maxlength="11">
+                    <div class="box-search-country">
+                        <div class="class-arrow">
+                            <input type="text" id="myInput" placeholder="Địa chỉ thường trú *" required>
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </div>
+                        <ul id="myUL">
+                        </ul>
+                    </div>
+                    <input type="text" placeholder="Số đăng ký kinh doanh">
+                    <input type="text" placeholder="Số CMT">
+                    <input type="text" placeholder="Mã số thuế">
+                    <div class="center-button">
+                        <input type="submit" value="Đăng ký" class="submit-btn">
+                    </div>
+                </form>
+            </div>
         </div>
-    </div> -->
+    </div>
+    <div class="layout-black"></div>
     <div id="Header"></div>
+    <div class="layout"></div>
     <div class="outline-crs">
         <div id="carouselExampleSlidesOnly" class="carousel slide carousel1" data-bs-ride="carousel">
             <div class="carousel-inner">
