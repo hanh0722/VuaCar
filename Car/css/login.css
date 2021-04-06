@@ -1,0 +1,30 @@
+.box-login{
+    box-shadow: 5px 5px 30px #888888;
+    padding: 50px;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.box-login input:active{
+    background-color: #ffffff;
+}
+.note-login{
+    line-height: 50px;
+}
+.box-login h3{
+    padding: 0;
+}
+.social button,
+.support-login a{
+    width: 30%;
+}
+.support-login a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.social,
+.support-login{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
