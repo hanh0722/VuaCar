@@ -1315,6 +1315,9 @@ footer ul a:hover{
     padding: 0;
     padding-top: 5%;
 }
+.second-search select{
+    width: 50%;
+}
 .cost-car-2 ul:nth-child(1){
     padding: 0;
 }
@@ -1349,6 +1352,59 @@ footer ul a:hover{
 .header-class a{
     font-weight: bold;
     color: #da5427;
+}
+.chosen-container-active.chosen-with-drop .chosen-single {
+    border: 1px solid #aaa;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    -webkit-box-shadow: 0 1px 0 #fff inset;
+            box-shadow: 0 1px 0 #fff inset;
+}
+.chosen-container-single{
+    width: 120px !important;
+}
+.change-color{
+    background-color: black !important;
+    color: white !important;
+}
+.form-control:active{
+    background: black;
+    color: white;
+}
+.pop-up-menu{
+    width: 50%;
+    position: fixed;
+    background: #fff;
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-sign{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in{
+    width: 70%;
+}
+.sign-in input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+}
+.choose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+.choose i{
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 @media screen and (max-width: 1200px){
     .right-nav input::placeholder{
