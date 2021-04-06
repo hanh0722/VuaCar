@@ -94,6 +94,9 @@ main{
 .left_top {
   margin: 10px 0;
 }
+.muaban_left_header{
+  margin: 20px 0;
+}
 .muaban_left_new_item{
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -320,9 +323,17 @@ main{
   width: 100%;
   margin: 5% 0%;
 }
-.block-price img{
+.block-price {
+  border-top: 1px solid #DFDFDF;
+  padding: 20px 0;
+  font-weight: 600;
   width: 100%;
-  padding: 10px 0px;
+  display: flex;
+}
+.block-price img{
+  width: 115px;
+  height: 85px;
+  margin-right: 10px;
 }
 tr, th, td{
   border: 1px solid #ddd;
@@ -349,6 +360,52 @@ tr, th, td{
   color: white;
   background-color: #da5427;
 }
+.header-priceOto{
+  background-color: #da5427;
+  color: #ffffff;
+}
+.card-price{
+  margin-top: 40px;
+}
+.list-card{
+  display: flex;
+  justify-content: space-between;
+}
+.dangKi{
+  padding: 20px 10px;
+  margin: 50px 0 30px 0;
+  text-align: center;
+  background-color: #F0F0F0 ;
+  border-radius: 5px;
+}
+.dangKi input{
+  width: 90%;
+  margin: 20px auto;
+}
+.dangKi button{
+  padding: 5px 30px;
+  background-color: #4db848;
+}
+/*honda*/
+.list-tintuc li,
+.list-card2 li,
+.list-card li{
+  list-style-position: inside;
+  list-style-type: disc;
+  padding: 5px 0;
+  font-size: 14px;
+}
+.title-tintuc{
+  background-color: #da5427;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.title-tintuc h6{
+  line-height: 40px;
+}
+/*end honda*/
 @media screen and (max-width: 720px){
   .container-2{
     max-width: 1400px !important;
@@ -370,9 +427,10 @@ tr, th, td{
   .muaban_new-item_right_price, .muaban_new-item_right_detail{
     font-size: .7rem !important;
   }
-  .cost-table{
+  .mobile-accordian{
     display: none;
   }
+
 }
 @media screen and (max-width: 450px){
   .dongxe span{
