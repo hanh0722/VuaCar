@@ -393,3 +393,10 @@ const video = () =>{
     }
 }
 video();
+const changeColor = () =>{
+    const input = document.querySelector(".form-control");
+    input.addEventListener("click", () =>{
+        input.classList.add("change-color");
+    })
+}
+changeColor();
