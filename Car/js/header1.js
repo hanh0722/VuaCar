@@ -19,9 +19,9 @@ function Header(){
             <i class="fa fa-search" aria-hidden="true"></i>
         </div>
         <div class="right">
-            <p><a href="">Đăng ký</a></p>
+            <p>Đăng ký</p>
             <span>|</span>
-            <p><a href="">Đăng nhập</a></p>
+            <p>Đăng nhập</p>
         </div>
     </div>
     <i class="fa fa-search fa-new" aria-hidden="true"></i>
@@ -31,6 +31,7 @@ function Header(){
         <img src="http://vuaxe.com.vn/Assets/VuaOTo/img/vuaxe.png" alt="">
     </div>
     <ul class="right-pick">
+    <li class="sign-in-mobile"><a href="">Đăng nhập</a> | <a href="">Đăng ký</a></li>
         <li>
             <a href="">Mua bán ô tô</a>
             <div class="information">

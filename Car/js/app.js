@@ -24,9 +24,10 @@ notify();
 const hamburger = () =>{
     const hamnav = document.querySelector(".hamburger");
     const content = document.querySelector(".second-nav");
+    const layout1 = document.querySelector(".layout")
     hamnav.addEventListener("click", () =>{
         content.classList.toggle("click1");
-        // nav2.classList.toggle("layout");
+        layout1.classList.toggle("layout-block");
     })
 }
 hamburger();
@@ -400,3 +401,122 @@ const changeColor = () =>{
     })
 }
 changeColor();
+
+const input = () =>{
+    const array = [
+        "Email hoặc số điện thoại đăng nhập",
+        "Mật khẩu"
+    ]
+    const inp = document.querySelectorAll(".sign-in input");
+    for(let i = 0; i < inp.length; i++){
+        const span = document.createElement("span");
+        span.textContent = "*";
+        span.style.color = "red";
+        inp[i].setAttribute("placeholder", `${array[i]} ${span.innerHTML}`);
+    }
+}
+input();
+const listCountry = () =>{
+    const array = [
+        "Hà Nội",
+        "TP.HCM",
+        "Đà Nẵng",
+        "An Giang",
+        "Bình Dương",
+        "Bình Định",
+        "Bắc Giang",
+        "Bắc Kạn",
+        "Bạc Liêu",
+        "Bắc Ninh",
+        "Bình Phước",
+        "Bình Thuận",
+        "Bến Tre",
+        "Cao Bằng",
+        "Cà Mau",
+        "Cần Thơ",
+        "Điện Biên", "Đắk Lắk", "Đồng Tháp", "Đồng Nai", "Đắk Nông", "Gia Lai", "Hòa Bình", "Hải Dương", "Hà Giang",
+        "Hậu Giang", "Hà Nam", "Hải Phòng", "Hà Tĩnh", "Hưng Yên", "Kiên Giang", "Khánh Hòa", "Kon Tum", "Long An", 
+        "Lào Cai", "Lai Châu", "Lâm Đồng", "Lạng Sơn", "Nghệ An", "Ninh Bình", "Nam Định", "Ninh Thuận", "Phú Thọ",
+        "Quảng Bình", "Quảng Nam", "Quảng Ngãi", "Quảng Ninh", "Quảng Trị", "Sơn La", "Sóc Trăng", "Thái Bình", "Tiền Giang",
+        "Thanh Hóa", "Thái Nguyên", "Tây Ninh", "Tuyên Quang", "Thừa Thiên Huế", "Trà Vinh", "Vĩnh Long", "Vĩnh Phúc", "Vũng Tàu"
+    ]
+    const list = document.getElementById("myUL");
+    for(let i = 0; i < array.length; i++){
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.setAttribute("href", "#");
+        a.textContent = array[i]
+        li.appendChild(a);
+        list.appendChild(li);
+    }
+    const input = document.querySelector("#myInput");
+    input.addEventListener("keyup", () =>{
+        var input1, filter, ul, li, a, i, txtValue;
+        input1 = input;
+        filter = input1.value.toUpperCase();
+        ul = list;
+        li = ul.getElementsByTagName("li");
+
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } 
+            else {
+            li[i].style.display = "none";
+        }
+        }
+    })
+    const detail = document.querySelectorAll("#myUL li");
+    const detailBox = document.querySelector("#myInput");
+    for(let j = 0; j < detail.length; j++){
+        detail[j].addEventListener("click", () =>{
+            detailBox.value = array[j];
+        })
+    }
+    const arr = document.querySelector(".class-arrow i");
+    arr.addEventListener("click", () =>{
+        list.classList.toggle("toggle-block");
+    })
+}
+listCountry();
+
+const form = () =>{
+    const signIn = document.querySelector(".sign-in-1");
+    const signUp = document.querySelector(".sign-up-1");
+    const contentSignIn = document.querySelector(".sign-in");
+    const contentSignUp = document.querySelector(".sign-up");
+    signIn.addEventListener("click", () =>{
+        contentSignIn.style.display = "block";
+        signIn.style.borderColor = "#da5427";
+        signUp.style.borderColor = "#ddd";
+        contentSignUp.style.display = "none";
+    })
+    signUp.addEventListener("click", () =>{
+        contentSignIn.style.display = "none";
+        contentSignUp.style.display = "block";
+        signIn.style.borderColor = "#ddd";
+        signUp.style.borderColor = "#da5427";
+    })
+}
+form();
+
+const formOut = () =>{
+    const sign = document.querySelectorAll(".right p");
+    const x = document.querySelector(".fa-times");
+    const popUp = document.querySelector(".pop-up-menu");
+    const layout = document.querySelector(".layout-black");
+    x.addEventListener("click", () =>{
+        popUp.style.display = "none";
+        layout.style.display = "none";
+    })
+    for(let i = 0; i < sign.length; i++){
+        sign[i].addEventListener("click", () =>{
+            popUp.style.display = "block";
+            layout.style.display = "block";
+        })
+    }
+}
+formOut();
