@@ -3,23 +3,21 @@ function Footer (){
     <div class="footer-last">
         <div class="first-footer">
             <ul>
-                <li><a href="">Hỗ trợ khách hàng</a></li>
-                <li><a href="">Quy định chính sách</a></li>
+                <li>Hỗ trợ khách hàng</li>
+                <li><a href="../html/QuyChehd.html">Quy định chính sách</a></li>
                 <li><a href="dieukhoan.html">Điều khoản hoạt động salon</a></li>
-                <li><a href="">Câu hỏi thường gặp</a></li>
+                <li><a href="../html/CauHoiTG.html">Câu hỏi thường gặp</a></li>
+                <li><a href="../html/hoTroKhachHang.html">Liên hệ</a></li>
             </ul>
             <ul>
-                <li><a href="">Về chúng tôi</a></li>
-                <li><a href="">Giới thiệu</a></li>
-                <li><a href="">Quy chế hoạt động</a></li>
-                <li><a href="">Tuyển dụng</a></li>
-                <li><a href="">Sitemap</a></li>
+                <li>Về chúng tôi</li>
+                <li><a href="../html/introduction.html">Giới thiệu</a></li>
+                <li><a href="../html/QuyChehd.html">Quy chế hoạt động</a></li>
             </ul>
             <ul>
-                <li><a href="">Tin tức bán xe hơi</a></li>
-                <li><a href="../html/b">Báo giá dịch vụ</a></li>
-                <li><a href="../html/">Khuyến mại từ các hãng</a></li>
-                <li><a href="">Cải tiến & tính năng mới</a></li>
+                <li>Tin tức bán xe hơi</li>
+                <li><a href="../html/baogia.html">Báo giá dịch vụ</a></li>
+                <li><a href="../html/KhuyenMaiTuCacHang.html">Khuyến mại từ các hãng</a></li>
             </ul>
             <ul class="list-items-ft">
                 <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
