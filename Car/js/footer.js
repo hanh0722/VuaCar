@@ -17,8 +17,8 @@ function Footer (){
             </ul>
             <ul>
                 <li><a href="">Tin tức bán xe hơi</a></li>
-                <li><a href="">Báo giá dịch vụ</a></li>
-                <li><a href="">Khuyến mại từ các hãng</a></li>
+                <li><a href="../html/b">Báo giá dịch vụ</a></li>
+                <li><a href="../html/">Khuyến mại từ các hãng</a></li>
                 <li><a href="">Cải tiến & tính năng mới</a></li>
             </ul>
             <ul class="list-items-ft">

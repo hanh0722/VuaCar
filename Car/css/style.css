@@ -1547,6 +1547,12 @@ footer ul a:hover{
 .second-nav{
     position: relative;
 }
+/* son em */
+.strong-text{
+    font-weight: bold;
+    width: 100%;
+}
+/* end */
 @media screen and (max-width: 1200px){
     .right-nav input::placeholder{
         font-size: .8rem;
