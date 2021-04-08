@@ -1,0 +1,34 @@
+.heading {
+    margin-top: 30px;
+    font-weight: 1000;
+    font-size: 24px;
+    line-height: 24px;
+    color: #222;
+}
+.questionname {
+    font: bold 18px/24px 'Roboto';
+    color: #1260ab;
+}
+
+.question-text a{
+    text-decoration: none;
+}
+.question-text p{
+    font-size: 16px;
+}
+.question-img{
+    display: none;
+}
+@media(min-width: 813px) {
+    .heading{
+        font-weight: 1000;
+        font-size: 24px;
+        line-height: 24px;
+        color: #222;
+        margin-bottom: 24px;
+        margin-top: 0;
+    }
+    .question-img{
+        display: block;
+    }
+}

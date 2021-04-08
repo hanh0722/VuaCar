@@ -1,5 +1,54 @@
 function Header(){
     return `
+    <div class="pop-up-menu">
+        <div class="choose">
+            <p class="sign-in-1">Đăng nhập</p>
+            <p class="sign-up-1">Đăng ký</p>
+            <i class="fa fa-times fa-times-1" aria-hidden="true"></i>
+        </div>
+        <div class="container-sign">
+            <div class="sign-in">
+                <input type="text" name="email/tel" id="input1" placeholder="" required><br>
+                <input type="password" name="password" placeholder="" required>
+                <div class="button-center">
+                    <button class="btn btn-warning btn-class">Đăng nhập</button>
+                </div>
+                <p class="text-center text-sign">Hoặc đăng nhập bằng</p>
+                <div class="fb-gg">
+                    <button class="btn btn-primary">Facebook</button>
+                    <button class="btn btn-danger">Google</button>
+                </div>
+                <div class="forget">
+                    <p><a href="">Quên mật khẩu</a></p>
+                    <p><a href="">Cần trợ giúp?</a></p>
+                </div>
+            </div>
+            <div class="sign-up">
+                <form method="GET">
+                    <input type="text" placeholder="Email đăng nhập *" required>
+                    <input type="text" placeholder="Họ và tên" required>
+                    <input type="password" placeholder="Mật khẩu *" required>
+                    <input type="text" placeholder="Nhập lại mật khẩu *" required>
+                    <input type="tel" placeholder="Số điện thoại *" required maxlength="11">
+                    <div class="box-search-country">
+                        <div class="class-arrow">
+                            <input type="text" id="myInput" placeholder="Địa chỉ thường trú *" required>
+                            <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </div>
+                        <ul id="myUL">
+                        </ul>
+                    </div>
+                    <input type="text" placeholder="Số đăng ký kinh doanh">
+                    <input type="text" placeholder="Số CMT">
+                    <input type="text" placeholder="Mã số thuế">
+                    <div class="center-button">
+                        <input type="submit" value="Đăng ký" class="submit-btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="layout-black"></div>
     <div class="first-nav">
     <div class="hamburger">
         <div class="line1"></div>
@@ -7,7 +56,7 @@ function Header(){
         <div class="line3"></div>
     </div>
     <div class="logo">
-        <img src="http://vuaxe.com.vn/Assets/VuaOTo/img/vuaxe.png" alt="">
+        <a href="index.html"><img src="http://vuaxe.com.vn/Assets/VuaOTo/img/vuaxe.png" alt=""></a>
     </div>
     <div class="left-nav">
         <p><a href="tel:">Hotline: 0123.456.789</a></p>
@@ -19,18 +68,20 @@ function Header(){
             <i class="fa fa-search" aria-hidden="true"></i>
         </div>
         <div class="right">
-            <p><a href="">Đăng ký</a></p>
+            <p>Đăng ký</p>
             <span>|</span>
-            <p><a href="">Đăng nhập</a></p>
+            <p>Đăng nhập</p>
         </div>
     </div>
     <i class="fa fa-search fa-new" aria-hidden="true"></i>
 </div>
 <div class="second-nav">
     <div class="logo-nav">
-        <img src="http://vuaxe.com.vn/Assets/VuaOTo/img/vuaxe.png" alt="">
+        <a href="index.html"><img src="http://vuaxe.com.vn/Assets/VuaOTo/img/vuaxe.png" alt=""></a>
     </div>
     <ul class="right-pick">
+    <i class="fa fa-times turnOff" aria-hidden="true"></i>
+    <li class="sign-in-mobile"><a href="">Đăng nhập</a> | <a href="">Đăng ký</a></li>
         <li>
             <a href="">Mua bán ô tô</a>
             <div class="information">
@@ -211,8 +262,8 @@ function Header(){
                     <p><a href="">An toàn giao thông</a></p>
                     <p><a href="">Sự kiện</a></p>
                     <p><a href="">Khuyến mại</a></p>
-                    <p><a href="">Ưu đãi</a></p>
-                    <p><a href="">Học viện ô tô</a></p>
+                    <p><a href="../html/discount.html">Ưu đãi</a></p>
+                    <p><a href="../html/hvoto.html">Học viện ô tô</a></p>
                     <p><a href="">Công nghệ mới</a></p>
                     <p><a href="">Khám phá</a></p>
                 </div>
@@ -231,6 +282,7 @@ function Header(){
         <button class="btn btn-success"><a href="">Đăng tin</a></button>
     </ul>
     </div>
+    <div class="layout"></div>
     `
 }
 const H1 = document.querySelector("#Header");
