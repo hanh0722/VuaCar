@@ -2,7 +2,7 @@
     box-shadow: 5px 5px 30px #888888;
     padding: 50px;
     border-radius: 10px;
-    width: 50%;
+    width: 100%;
     margin-bottom: 50px;
 }
 .box-login input:active{
@@ -27,4 +27,5 @@
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
