@@ -44,7 +44,10 @@ p{
     color: white;
     background: rgba(0, 0, 0, 0.7);
 }
-
+.kinhnghiem_banner_left a,
+.kinhnghiem_banner_right a{
+    color: white !important;
+}
 .kinhnghiem_banner_right_item{
     position: relative;
 }
