@@ -15,8 +15,9 @@ p{
 a{
     color: #da5427;
     text-decoration: none;
+    font-weight: 600;
 }
-.row a:hover{
+a:hover{
     color: #da7000;
 }
 .title-bangGia{
@@ -48,10 +49,6 @@ a{
 }
 .blockbangia p {
     padding-left: 10px;
-}
-.title-weight{
-    font-size: 1.2rem;
-    font-weight: bold;
 }
 .blockbangia2{
     border-top: 1px solid #DFDFDF;
@@ -97,19 +94,20 @@ a{
     width: 100%;
     border: #da5427 2px solid;
     margin-bottom: 20px;
-    height: 100%;
+    flex-direction: row;
 }
-.card-muaban img{
+
+.img-carddanhba{
+    max-width: 20%;
+}
+.card-danhba img{
+    width: 100%;
     border-radius: 100%;
-    width: 50px;
-    float: left;
-    margin-bottom: auto;
 }
 .ỉ4-card{
     width: 80%;
     flex-wrap: nowrap;
     margin-left: 10px;
-    float: left;
     display: inline-block;
 }
 .ỉ4-card p{
@@ -180,35 +178,10 @@ table{
     background-color: #da5427;
     color: #ffffff;
 }
-.cost-car{
-    padding: 0;
-    padding: 5% 0%;
-}
-.small-box{
-    padding: 15px 40px;
-}
-.title-content{
-    padding-bottom: 5%;
-}
-.button-width{
+.card-danhba{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
 }
-.card-flex{
-    display: flex;
-    justify-content: space-between;
-}
-.top-col{
-    margin-bottom: 10px;
-}
-.img-body{
-    width: 20%;
-}
-.img-body img{
-    width: 100%;
-}
-
 @media screen and (max-width: 992px){
     .card-mobile{
         display: none;
