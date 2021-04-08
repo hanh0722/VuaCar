@@ -82,54 +82,54 @@ function Header(){
     <ul class="right-pick">
     <i class="fa fa-times turnOff" aria-hidden="true"></i>
     <li class="sign-in-mobile"><a href="">Đăng nhập</a> | <a href="">Đăng ký</a></li>
-        <li>
+        <li class="muabanoto_get">
             <a href="">Mua bán ô tô</a>
             <div class="information">
                 <div class="top-if">
                     <div class="first-if">
-                        <p><a href="">Honda City</a></p>
-                        <p><a href="">Honda CRV</a></p>
-                        <p><a href="">Toyota Vios</a></p>
-                        <p><a href="">Toyota Fortuner</a></p>
-                        <p><a href="">Ford Ranger</a></p>
+                        <p><a href="muabanoto.html">Honda City</a></p>
+                        <p><a href="muabanoto.html">Honda CRV</a></p>
+                        <p><a href="muabanoto.html">Toyota Vios</a></p>
+                        <p><a href="muabanoto.html">Toyota Fortuner</a></p>
+                        <p><a href="muabanoto.html">Ford Ranger</a></p>
                     </div>
                     
                     <div class="second-if">
-                        <p><a href="">Acura</a></p>
-                        <p><a href="">Audi</a></p>
-                        <p><a href="">BMW</a></p>
-                        <p><a href="">Chevrolet</a></p>
-                        <p><a href="">Daewoo</a></p>
-                        <p><a href="">Dongfeng (DFM)</a></p>
-                        <p><a href="">Ford</a></p>
-                        <p><a href="">Honda</a></p>
-                        <p><a href="">Huyndai</a></p>
-                        <p><a href="">Isuzu</a></p>
-                        <p><a href="">Kia</a></p>
-                        <p><a href="">LandRover</a></p>
+                        <p><a href="muabanoto.html">Acura</a></p>
+                        <p><a href="muabanoto.html">Audi</a></p>
+                        <p><a href="muabanoto.html">BMW</a></p>
+                        <p><a href="muabanoto.html">Chevrolet</a></p>
+                        <p><a href="muabanoto.html">Daewoo</a></p>
+                        <p><a href="muabanoto.html">Dongfeng (DFM)</a></p>
+                        <p><a href="muabanoto.html">Ford</a></p>
+                        <p><a href="muabanoto.html">Honda</a></p>
+                        <p><a href="muabanoto.html">Huyndai</a></p>
+                        <p><a href="muabanoto.html">Isuzu</a></p>
+                        <p><a href="muabanoto.html">Kia</a></p>
+                        <p><a href="muabanoto.html">LandRover</a></p>
                     </div>
                 </div>
                 <div class="bottom-if">
                     <div class="first-if">
-                        <p><a href="">BMW 320i</a></p>
-                        <p><a href="">Mercedes C200</a></p>
-                        <p><a href="">Mercedes C300</a></p>
-                        <p><a href="">Mercedes E200</a></p>
-                        <p><a href="">Lexus LX570</a></p>
+                        <p><a href="muabanoto.html">BMW 320i</a></p>
+                        <p><a href="muabanoto.html">Mercedes C200</a></p>
+                        <p><a href="muabanoto.html">Mercedes C300</a></p>
+                        <p><a href="muabanoto.html">Mercedes E200</a></p>
+                        <p><a href="muabanoto.html">Lexus LX570</a></p>
                     </div>
                     <div class="second-if">
-                        <p><a href="">Lexus</a></p>
-                        <p><a href="">Mazda</a></p>
-                        <p><a href="">Mercedes-Benz</a></p>
-                        <p><a href="">Mitsubishi</a></p>
-                        <p><a href="">Nissan</a></p>
-                        <p><a href="">Peugeot</a></p>
-                        <p><a href="">Suzuki</a></p>
-                        <p><a href="">Toyota</a></p>
-                        <p><a href="">VinFast</a></p>
-                        <p><a href="">Volkswagen</a></p>
-                        <p><a href="">Xe tải</a></p>
-                        <p><a href="">Hãng xe khác</a></p>
+                        <p><a href="muabanoto.html">Lexus</a></p>
+                        <p><a href="muabanoto.html">Mazda</a></p>
+                        <p><a href="muabanoto.html">Mercedes-Benz</a></p>
+                        <p><a href="muabanoto.html">Mitsubishi</a></p>
+                        <p><a href="muabanoto.html">Nissan</a></p>
+                        <p><a href="muabanoto.html">Peugeot</a></p>
+                        <p><a href="muabanoto.html">Suzuki</a></p>
+                        <p><a href="muabanoto.html">Toyota</a></p>
+                        <p><a href="muabanoto.html">VinFast</a></p>
+                        <p><a href="muabanoto.html">Volkswagen</a></p>
+                        <p><a href="muabanoto.html">Xe tải</a></p>
+                        <p><a href="muabanoto.html">Hãng xe khác</a></p>
                     </div>
                 </div>
             </div>
