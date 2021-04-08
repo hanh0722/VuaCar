@@ -1563,6 +1563,10 @@ footer ul a:hover{
     color: gray;
     text-align: center;
 }
+.strong-text{
+    font-weight: bold;
+    width: 100%;
+}
 @media screen and (max-width: 1200px){
     .right-nav input::placeholder{
         font-size: .8rem;
