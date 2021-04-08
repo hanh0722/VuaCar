@@ -147,7 +147,7 @@ function Header(){
             </div>
         </li>
         <li>
-            <a href="">Giá xe ô tô</a>
+            <a href="../html/bangGia.html">Giá xe ô tô</a>
             <i class="fa fa-angle-right" aria-hidden="true"></i>
             <div class="information infor-mobile">
                 <div class="first-list">

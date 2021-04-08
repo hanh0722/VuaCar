@@ -1041,6 +1041,7 @@ footer ul a:hover{
 .first-footer a{
     text-decoration: none;
     color: white;
+    font-weight: normal;
 }
 .img-list{
     display: flex;
@@ -1547,6 +1548,10 @@ footer ul a:hover{
 .second-nav{
     position: relative;
 }
+.first-footer li{
+    color: white;
+    font-weight: bold;
+}
 @media screen and (max-width: 1200px){
     .right-nav input::placeholder{
         font-size: .8rem;
@@ -1673,6 +1678,11 @@ footer ul a:hover{
     }
     .btn-third, .btn-second{
         padding: 2px 10px;
+    }
+}
+@media screen and (max-width: 860px){
+    .second-nav{
+        padding: 2.5%;
     }
 }
 @media screen and (max-width: 800px){

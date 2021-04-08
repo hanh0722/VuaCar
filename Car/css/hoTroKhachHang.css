@@ -17,7 +17,8 @@
     max-height: 100px;
     margin-right: 20px;
 }
-.row2 h4{
+.container{
+    margin-top: 5%;
 }
 .row2{
     display: flex;

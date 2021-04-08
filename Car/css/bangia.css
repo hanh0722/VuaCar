@@ -15,9 +15,8 @@ p{
 a{
     color: #da5427;
     text-decoration: none;
-    font-weight: 600;
 }
-a:hover{
+.row a:hover{
     color: #da7000;
 }
 .title-bangGia{
@@ -49,6 +48,10 @@ a:hover{
 }
 .blockbangia p {
     padding-left: 10px;
+}
+.title-weight{
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 .blockbangia2{
     border-top: 1px solid #DFDFDF;
@@ -94,8 +97,8 @@ a:hover{
     width: 100%;
     border: #da5427 2px solid;
     margin-bottom: 20px;
+    height: 100%;
 }
-
 .card-muaban img{
     border-radius: 100%;
     width: 50px;
@@ -177,6 +180,35 @@ table{
     background-color: #da5427;
     color: #ffffff;
 }
+.cost-car{
+    padding: 0;
+    padding: 5% 0%;
+}
+.small-box{
+    padding: 15px 40px;
+}
+.title-content{
+    padding-bottom: 5%;
+}
+.button-width{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.top-col{
+    margin-bottom: 10px;
+}
+.img-body{
+    width: 20%;
+}
+.img-body img{
+    width: 100%;
+}
+
 @media screen and (max-width: 992px){
     .card-mobile{
         display: none;

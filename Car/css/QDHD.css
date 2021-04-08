@@ -10,7 +10,7 @@
     font: 16px/23px 'Arial';
     margin-bottom: 10px;
     line-height: 20px;
-    text-align: left;
+    text-align: justify;
 }
 .content-pageinfo a {
     color: #135eac !important;
@@ -22,8 +22,14 @@
     margin-top: 30px;
     text-align: center;
 }
+.container{
+    padding-top: 5%;
+}
 @media(min-width: 813px) {
     .qc_dh{
         margin-left: 628px;
+    }
+    .container{
+        padding-top: 2%;
     }
 }
