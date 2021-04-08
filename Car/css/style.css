@@ -102,7 +102,6 @@ i:hover{
     align-items: center;
     padding: 2.5% 5% 2.5% 5%;
     position: relative;
-    margin-bottom: 2%;
     box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
 }
 .infor-34{
@@ -1408,8 +1407,8 @@ footer ul a:hover{
     transition: all .5s;
 }
 .sign-in input::placeholder, .sign-up input::placeholder{
-    font-size: .9rem;
-    color: gray;
+    font-size: .9rem !important;
+    color: gray !important;
 }
 .choose{
     display: flex;

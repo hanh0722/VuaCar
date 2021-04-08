@@ -5,7 +5,7 @@ function Footer (){
             <ul>
                 <li><a href="">Hỗ trợ khách hàng</a></li>
                 <li><a href="">Quy định chính sách</a></li>
-                <li><a href="">Điều khoản hoạt động salon</a></li>
+                <li><a href="dieukhoan.html">Điều khoản hoạt động salon</a></li>
                 <li><a href="">Câu hỏi thường gặp</a></li>
             </ul>
             <ul>
