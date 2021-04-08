@@ -188,7 +188,6 @@ i:hover{
     align-items: center;
     z-index: 10;
     background-color: white;
-    box-shadow: 0px 0px -10px 5px #888888;
 }
 .list-2{
     display: flex;
@@ -973,7 +972,7 @@ i:hover{
     position: absolute;
     bottom: 0;
     color: white;
-    background: 
+    background:
     linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
@@ -1199,7 +1198,7 @@ footer ul a:hover{
 }
 .btn-second{
     background-color: white;
-    border-color: #da5427;  
+    border-color: #da5427;
     font-weight: bold;
     padding: 2px 20px;
     font-size: .9rem;
@@ -1270,7 +1269,7 @@ footer ul a:hover{
     justify-content: space-between;
 }
 .srm, .box-country, .box-finding{
-    padding: 10px 5px; 
+    padding: 10px 5px;
     border: 1px solid #ddd;
     font-size: .9rem;
 }
