@@ -1548,6 +1548,12 @@ footer ul a:hover{
 .second-nav{
     position: relative;
 }
+/* son em */
+.strong-text{
+    font-weight: bold;
+    width: 100%;
+}
+/* end */
 .first-footer li{
     color: white;
     font-weight: bold;
