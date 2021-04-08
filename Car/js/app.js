@@ -17,6 +17,8 @@
 // }
 
 // get notification
+// sticky navbar
+
 const notify = () =>{
     Notification.requestPermission();
 }
@@ -24,17 +26,22 @@ notify();
 const hamburger = () =>{
     const hamnav = document.querySelector(".hamburger");
     const content = document.querySelector(".second-nav");
-    const layout1 = document.querySelector(".layout")
+    const layout1 = document.querySelector(".layout");
+    const turnOff = document.querySelector(".turnOff");
     hamnav.addEventListener("click", () =>{
-        content.classList.toggle("click1");
-        layout1.classList.toggle("layout-block");
+        content.classList.add("click1");
+        layout1.classList.add("layout-block");
     })
+    turnOff.addEventListener("click", () =>{
+        content.classList.remove("click1");
+        layout1.classList.remove("layout-block");
+    })
+
 }
 hamburger();
-
 const block = () =>{
     const list = document.querySelectorAll(".infor-mobile");
-    const arrow = document.querySelectorAll(".right-pick i");
+    const arrow = document.querySelectorAll(".right-pick .fa-angle-right");
     for(let i = 0; i < list.length; i++){
         arrow[i].addEventListener("click", () =>{
             arrow[i].classList.toggle("rotate");
@@ -483,6 +490,7 @@ const listCountry = () =>{
 }
 listCountry();
 
+// show up when we click the form inside, sign in or sign up
 const form = () =>{
     const signIn = document.querySelector(".sign-in-1");
     const signUp = document.querySelector(".sign-up-1");
@@ -503,20 +511,37 @@ const form = () =>{
 }
 form();
 
+// click outside and show true place with sign in or sign up
 const formOut = () =>{
     const sign = document.querySelectorAll(".right p");
-    const x = document.querySelector(".fa-times");
+    const x = document.querySelector(".fa-times-1");
     const popUp = document.querySelector(".pop-up-menu");
     const layout = document.querySelector(".layout-black");
     x.addEventListener("click", () =>{
         popUp.style.display = "none";
         layout.style.display = "none";
     })
+    const signIn = document.querySelector(".sign-in");
+    const signUp = document.querySelector(".sign-up");
+    const border1 = document.querySelector(".sign-in-1");
+    const border2 = document.querySelector(".sign-up-1");
     for(let i = 0; i < sign.length; i++){
         sign[i].addEventListener("click", () =>{
             popUp.style.display = "block";
             layout.style.display = "block";
-        })
+            if(i === 1){
+                signIn.style.display = "block";
+                signUp.style.display = "none";
+                border2.style.borderColor = "#ddd";
+                border1.style.borderColor = "#da5427"
+            }
+            else{
+                signIn.style.display = "none";
+                signUp.style.display = "block";
+                border2.style.borderColor = "#da5427";
+                border1.style.borderColor = "#ddd";
+            }
+       })
     }
 }
 formOut();

@@ -31,6 +31,7 @@ function Header(){
         <img src="http://vuaxe.com.vn/Assets/VuaOTo/img/vuaxe.png" alt="">
     </div>
     <ul class="right-pick">
+    <i class="fa fa-times turnOff" aria-hidden="true"></i>
     <li class="sign-in-mobile"><a href="">Đăng nhập</a> | <a href="">Đăng ký</a></li>
         <li>
             <a href="">Mua bán ô tô</a>
