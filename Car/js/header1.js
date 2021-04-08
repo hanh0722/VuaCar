@@ -205,7 +205,7 @@ function Header(){
             </div>
         </li>
         <li>
-            <a href="">Tư vấn xe</a>
+            <a href="../html/tuVanXe.html">Tư vấn xe</a>
             <i class="fa fa-angle-right" aria-hidden="true"></i>
             <div class="information infor-mobile infor-35">
                 <div>
@@ -216,9 +216,9 @@ function Header(){
                 </div>
             </div>
         </li>
-        <li><a href="">Otowiki</a></li>
+        <li><a href="../html/wiki-oto.html">Otowiki</a></li>
         <li class="mobile">
-            <a href="">Tin tức</a>
+            <a href="../html/news.html">Tin tức</a>
             <i class="fa fa-angle-right" aria-hidden="true"></i>
             <div class="information infor-mobile">
                 <div>
@@ -227,7 +227,7 @@ function Header(){
                     <p><a href="">Sự kiện</a></p>
                     <p><a href="">Khuyến mãi</a></p>
                     <p><a href="">Ưu đãi</a></p>
-                    <p><a href="">Học viện ô tô</a></p>
+                    <p><a href="../html/hvoto.html">Học viện ô tô</a></p>
                     <p><a href="">Công nghệ mới</a></p>
                     <p><a href="">Khám phá</a></p>
                 </div>
@@ -239,12 +239,12 @@ function Header(){
             <div class="information infor-mobile">
                 <div>
                     <p><a href="">So sánh xe</a></p>
-                    <p><a href="">Xe mới</a></p>
-                    <p><a href="">Thông số kỹ thuật</a></p>
+                    <p><a href="../html/xemoi.html">Xe mới</a></p>
+                    <p><a href="../html/thongSoKiThuat.html">Thông số kỹ thuật</a></p>
                     <p><a href="">Xe sắp ra mắt tại VN</a></p>
                     <p><a href="">Xe bán chạy trong tháng</a></p>
-                    <p><a href="">Lịch sử các hãng xe</a></p>
-                    <p><a href="">Video</a></p>
+                    <p><a href="../html/lichSuCacHang.html">Lịch sử các hãng xe</a></p>
+                    <p><a href="../html/Video.html">Video</a></p>
                 </div>
             </div>
         </li>
@@ -270,12 +270,12 @@ function Header(){
                 <div class="second-list second-list1">
                     <p class="header-class"><a href="">Thông tin xe</a></p>
                     <p><a href="">So sánh xe</a></p>
-                    <p><a href="">Xe mới</a></p>
-                    <p><a href="">Thông số kỹ thuật</a></p>
+                    <p><a href="../html/xemoi.html">Xe mới</a></p>
+                    <p><a href="../html/thongSoKiThuat.html">Thông số kỹ thuật</a></p>
                     <p><a href="">Xe sắp ra mắt tại VN</a></p>
                     <p><a href="">Xe bán chạy trong tháng</a></p>
-                    <p><a href="">Lịch sử các hãng xe</a></p>
-                    <p><a href="">Video</a></p>
+                    <p><a href="../html/lichSuCacHang.html">Lịch sử các hãng xe</a></p>
+                    <p><a href="../html/Video.html">Video</a></p>
                 </div>
             </div>
         </li>
@@ -283,6 +283,9 @@ function Header(){
     </ul>
     </div>
     <div class="layout"></div>
+    
+    <script src="getmuabanoto.js"></script>
+    <script src="muaban.js"></script>
     `
 }
 const H1 = document.querySelector("#Header");
