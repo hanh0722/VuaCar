@@ -1552,6 +1552,17 @@ footer ul a:hover{
     color: white;
     font-weight: bold;
 }
+.fa-fa-mobile{
+    display: none;
+}
+.fa-fa-mobile input{
+    display: none;
+}
+.fa-fa-mobile input::placeholder{
+    font-size: .7rem;
+    color: gray;
+    text-align: center;
+}
 @media screen and (max-width: 1200px){
     .right-nav input::placeholder{
         font-size: .8rem;
@@ -1668,7 +1679,7 @@ footer ul a:hover{
         padding: 15px;
     }
     .experience{
-        height: 60vh;
+        height: auto;
     }
     .second-box{
         height: 40vh;
@@ -2060,6 +2071,24 @@ footer ul a:hover{
     }
     .cost-car-2{
         display: none;
+    }
+    .fa-fa-mobile{
+        position: relative;
+        display: block;
+    }
+    .fa-fa-mobile input{
+        position: absolute;
+        top: -5px;
+        right: 20px;
+        width: 200px;
+        height: 25px;
+        z-index: 300;
+        padding: 10px;
+        font-size: .8rem;
+    }
+    .fa-fa-mobile input:focus{
+        background-color: white;
+        color: black;
     }
 }
 @media screen and (max-width: 768px){

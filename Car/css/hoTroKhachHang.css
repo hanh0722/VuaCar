@@ -44,3 +44,27 @@
 .maXacthuc{
     width: 80%;
 }
+.btn-forget{
+    width: 50%;
+}
+.box-quenmk form{
+    padding: 5% 0%;
+}
+.container-1{
+    margin-top: 0;
+}
+.input-form-row{
+    width: 50%;
+}
+.input-form-row:focus{
+    background: #fff;
+    color: black;
+}
+@media screen and (max-width: 800px){
+    .input-form-row{
+        width: 75%;
+    }
+    .btn-forget{
+        width: 75%;
+    }
+}

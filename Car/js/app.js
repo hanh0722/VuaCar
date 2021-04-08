@@ -452,7 +452,7 @@ const listCountry = () =>{
         const li = document.createElement("li");
         const a = document.createElement("a");
         a.setAttribute("href", "#");
-        a.textContent = array[i]
+        a.textContent = array[i];
         li.appendChild(a);
         list.appendChild(li);
     }
@@ -487,6 +487,16 @@ const listCountry = () =>{
     arr.addEventListener("click", () =>{
         list.classList.toggle("toggle-block");
     })
+    detailBox.addEventListener("click", () =>{
+        list.classList.toggle("toggle-block");
+    })
+    const listChosen = document.querySelectorAll("#myUL li");
+    
+    for(let z = 0; z < listChosen.length; z++){
+        listChosen[z].addEventListener("click", () =>{
+            list.classList.toggle("toggle-block");
+        })
+    }
 }
 listCountry();
 
@@ -545,3 +555,13 @@ const formOut = () =>{
     }
 }
 formOut();
+
+// show input
+const inputText = () =>{
+    const input = document.querySelector(".fa-fa-mobile input");
+    const search = document.querySelector(".fa-new");
+    search.addEventListener("click", () =>{
+        input.classList.toggle("block");
+    })
+}
+inputText();

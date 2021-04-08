@@ -120,3 +120,12 @@ const input = () =>{
     }
 }
 input();
+
+const inputText = () =>{
+    const input = document.querySelector(".fa-fa-mobile input");
+    const search = document.querySelector(".fa-new");
+    search.addEventListener("click", () =>{
+        input.classList.toggle("block");
+    })
+}
+inputText();

@@ -17,8 +17,7 @@ function Footer (){
             <ul>
                 <li>Tin tức bán xe hơi</li>
                 <li><a href="../html/baogia.html">Báo giá dịch vụ</a></li>
-                <li><a href="">Khuyến mại từ các hãng</a></li>
-                <li><a href="">Cải tiến & tính năng mới</a></li>
+                <li><a href="../html/KhuyenMaiTuCacHang.html">Khuyến mại từ các hãng</a></li>
             </ul>
             <ul class="list-items-ft">
                 <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>

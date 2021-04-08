@@ -19,8 +19,8 @@ function Header(){
                     <button class="btn btn-danger">Google</button>
                 </div>
                 <div class="forget">
-                    <p><a href="">Quên mật khẩu</a></p>
-                    <p><a href="">Cần trợ giúp?</a></p>
+                    <p><a href="../html/quenMk.html">Quên mật khẩu</a></p>
+                    <p><a href="../html/hoTroKhachHang.html">Cần trợ giúp?</a></p>
                 </div>
             </div>
             <div class="sign-up">
@@ -60,7 +60,7 @@ function Header(){
     </div>
     <div class="left-nav">
         <p><a href="tel:">Hotline: 0123.456.789</a></p>
-        <p><a href="">Báo giá</a></p>
+        <p><a href="../html/baogia.html">Báo giá</a></p>
     </div>
     <div class="right-nav">
         <div class="input">
@@ -73,7 +73,10 @@ function Header(){
             <p>Đăng nhập</p>
         </div>
     </div>
-    <i class="fa fa-search fa-new" aria-hidden="true"></i>
+    <div class="fa-fa-mobile">
+        <i class="fa fa-search fa-new" aria-hidden="true"></i>
+        <input class="form-control" type="text" placeholder = "Tìm kiếm theo hãng xe, dòng xe">
+    </div>
 </div>
 <div class="second-nav">
     <div class="logo-nav">
