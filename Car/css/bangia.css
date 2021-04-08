@@ -94,19 +94,20 @@ a:hover{
     width: 100%;
     border: #da5427 2px solid;
     margin-bottom: 20px;
+    flex-direction: row;
 }
 
-.card-muaban img{
+.img-carddanhba{
+    max-width: 20%;
+}
+.card-danhba img{
+    width: 100%;
     border-radius: 100%;
-    width: 50px;
-    float: left;
-    margin-bottom: auto;
 }
 .ỉ4-card{
     width: 80%;
     flex-wrap: nowrap;
     margin-left: 10px;
-    float: left;
     display: inline-block;
 }
 .ỉ4-card p{
@@ -176,6 +177,10 @@ table{
 .header-table{
     background-color: #da5427;
     color: #ffffff;
+}
+.card-danhba{
+    display: flex;
+    justify-content: space-around;
 }
 @media screen and (max-width: 992px){
     .card-mobile{
